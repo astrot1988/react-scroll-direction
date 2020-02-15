@@ -10,12 +10,6 @@ Install with npm:
 npm install --save @hermanwikner/react-scroll-direction
 ```
 
-… or with Yarn:
-
-```bash
-yarn add @hermanwikner/react-scroll-direction
-```
-
 ## Usage
 
 Wrap your app in the `ScrollDirectionProvider` component and then use the `useScrollDirection` hook
@@ -39,6 +33,7 @@ import React from 'react';
 import { useScrollDirection } from '@hermanwikner/react-scroll-direction';
 
 const Example = () => {
+    
     const direction = useScrollDirection();
 
     const style = {
