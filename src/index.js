@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback, createContext, useContext } fr
 
 const ScrollInfo = createContext();
 
-export const ScrollInfoProvider = ({ children }) => {
+export const ScrollDirectionProvider = ({ children }) => {
 
     const [direction, setDirection] = useState(0);
     const [pos, setPos] = useState(0);
