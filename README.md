@@ -1,6 +1,6 @@
-# React ID
+# React Scroll Direction
 
-A React hook that ensures unique id attributes on HTML elements.
+A React hook to detect scroll direction.
 
 ## Get started
 
