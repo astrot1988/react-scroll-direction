@@ -18,7 +18,7 @@ yarn add @hermanwikner/react-scroll-direction
 
 ## Usage
 
-Wrap your app in the `ScrollInfoProvider` component and then use the `useScrollInfo` hook
+Wrap your app in the `ScrollInfoProvider` component and then use the `useScrollDirection` hook
 to access scroll info data. Example:
 
 ```js
