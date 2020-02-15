@@ -1,4 +1,4 @@
-# React ID
+# React Scroll Direction
 
 A React hook to detect scroll direction.
 
