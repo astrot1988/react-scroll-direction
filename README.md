@@ -10,6 +10,12 @@ Install with npm:
 npm install --save @hermanwikner/react-scroll-direction
 ```
 
+Install with yarn:
+
+```bash
+yarn add @hermanwikner/react-scroll-direction
+```
+
 ## Usage
 
 Wrap your app in the `ScrollInfoProvider` component and then use the `useScrollInfo` hook
