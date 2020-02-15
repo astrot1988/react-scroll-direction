@@ -52,7 +52,7 @@ const Example = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        background: direction === 'UP ? 'lightcoral' : 'lightblue'
+        color: direction === 'UP' ? 'lightcoral' : 'lightblue'
     }
 
     return <h1 style={style}>{direction}</h1>
