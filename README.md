@@ -19,7 +19,7 @@ yarn add @hermanwikner/react-scroll-direction
 ## Usage
 
 Wrap your app in the `ScrollDirectionProvider` component and then use the `useScrollDirection` hook
-to access scroll info data. The `useScrollDirection` returns "UP" or "DOWN". Example:
+to access scroll direction data. The `useScrollDirection` returns "UP" or "DOWN". Example:
 
 ```js
 // App.js
