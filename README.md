@@ -1,6 +1,6 @@
-# React Scroll Direction
+# React ID
 
-A React hook to detect scroll direction.
+A React hook that ensures unique id attributes on HTML elements.
 
 ## Get started
 
@@ -12,8 +12,8 @@ npm install --save @hermanwikner/react-scroll-direction
 
 ## Usage
 
-Wrap your app in the `ScrollDirectionProvider` component and then use the `useScrollDirection` hook
-to access scroll direction data. The `useScrollDirection` returns "UP" or "DOWN". Example:
+Wrap your app in the `ScrollInfoProvider` component and then use the `useScrollInfo` hook
+to access scroll info data. Example:
 
 ```js
 // App.js
@@ -33,7 +33,7 @@ import React from 'react';
 import { useScrollDirection } from '@hermanwikner/react-scroll-direction';
 
 const Example = () => {
-    
+  
     const direction = useScrollDirection();
 
     const style = {
@@ -47,7 +47,7 @@ const Example = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        color: direction === 'UP' ? 'lightcoral' : 'lightblue'
+        color: direction === 'UP ? 'lightcoral' : 'lightblue'
     }
 
     return <h1 style={style}>{direction}</h1>
