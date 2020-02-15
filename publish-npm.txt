@@ -1,5 +1,0 @@
-Publish:
-npm publish
-
-Unpublish:
-npm unpublish <name> -f
