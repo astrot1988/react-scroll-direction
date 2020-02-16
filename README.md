@@ -10,7 +10,7 @@ npm install i @hermanwikner/react-scroll-direction
 
 ## Usage
 
-Wrap your app in the `ScrollInfoProvider` component and then use the `useScrollDirection` hook. The hook returns "UP" or "DOWN". 
+Wrap your app in the `ScrollDirectionProvider` component and then use the `useScrollDirection` hook. The hook returns "UP" or "DOWN". 
 
 Example:
 
