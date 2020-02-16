@@ -4,22 +4,15 @@ A React hook to detect scroll direction.
 
 ## Get started
 
-Install with npm:
-
 ```bash
-npm install --save @hermanwikner/react-scroll-direction
-```
-
-Install with yarn:
-
-```bash
-yarn add @hermanwikner/react-scroll-direction
+npm install i @hermanwikner/react-scroll-direction
 ```
 
 ## Usage
 
-Wrap your app in the `ScrollInfoProvider` component and then use the `useScrollDirection` hook
-to access scroll direction data. The hook return "UP" or "DOWN". Example:
+Wrap your app in the `ScrollInfoProvider` component and then use the `useScrollDirection` hook. The hook returns "UP" or "DOWN". 
+
+Example:
 
 ```js
 // App.js
