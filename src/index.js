@@ -4,7 +4,7 @@ const ScrollInfo = createContext();
 
 export const ScrollDirectionProvider = ({ children }) => {
 
-    const [direction, setDirection] = useState(0);
+    const [direction, setDirection] = useState('');
     const [pos, setPos] = useState(0);
 
     const handleScroll = useCallback(() => {
