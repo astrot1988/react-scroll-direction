@@ -5,7 +5,7 @@ A React hook to detect scroll direction.
 ## Get started
 
 ```bash
-npm install i @hermanwikner/react-scroll-direction
+npm i @hermanwikner/react-scroll-direction
 ```
 
 ## Usage
