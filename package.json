@@ -2,7 +2,7 @@
   "name": "@hermanwikner/react-scroll-direction",
   "description": "A React hook to detect scroll direction. ",
   "main": "./build/index.js",
-  "version": "1.0.4",
+  "version": "0.0.0",
   "scripts": {
     "build": "webpack"
   },
